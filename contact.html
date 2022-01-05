@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fitness Studio</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" title="css/css" href="css/css.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Montserrat&family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header></header>
+    <nav role="navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallary.html">Gallary</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="container">
+        <form action="#">
+          <label for="fname"> <strong>First Name</strong> </label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname"><strong>Last Name</strong></label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="country"><strong>Country</strong></label>
+          <select id="country" name="country">
+            <option value="canada">Canada</option>
+            <option value="canada">India</option>
+            <option value="australia">Australia</option>
+            <option value="usa">USA</option>
+          </select>
+
+          <label for="subject"><strong>Subject</strong></label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2894.8753429481544!2d-80.50850213749918!3d43.48407180826451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf39ae610dee7%3A0xfcbc7c901d2b9433!2s295%20Dale%20Crescent%2C%20Waterloo%2C%20ON%20N2J%203Y5!5e0!3m2!1sen!2sca!4v1636056082767!5m2!1sen!2sca"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+
+      <div class="contact-info">
+        <div class="card1">
+          <h1>Start A Chat.</h1>
+        </div>
+
+        <div class="card">
+          <i class="card-icon far fa-envelope"></i>
+          <p>fitnessstudio10@gmail.com</p>
+        </div>
+
+        <div class="card">
+          <i class="card-icon fas fa-phone"></i>
+          <p>+1 519 000 1232</p>
+        </div>
+
+        <div class="card">
+          <i class="card-icon fas fa-map-marker-alt"></i>
+          <p>Waterloo, CA</p>
+        </div>
+      </div>
+    </main>
+    <footer class="footerbase">
+      <div class="social">
+        <a href="#"><i class="icon ion-social-instagram"></i></a
+        ><a href="#"><i class="icon ion-social-snapchat"></i></a
+        ><a href="#"><i class="icon ion-social-twitter"></i></a
+        ><a href="#"><i class="icon ion-social-facebook"></i></a>
+      </div>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="index.html">Home</a></li>
+        <li class="list-inline-item"><a href="#">Services</a></li>
+        <li class="list-inline-item"><a href="#">About</a></li>
+        <li class="list-inline-item"><a href="#">Terms</a></li>
+        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+      </ul>
+      <p class="datetimecls">
+        <time datetime="2021-09-30 11:30"
+          >Last Edited 12<sup>th</sup> November 2021, at 11:30 (UTC).</time
+        >
+      </p>
+      <p class="copyright">The Fitness Studio &copy; 2021</p>
+    </footer>
+  </body>
+</html>
